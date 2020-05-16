@@ -9,3 +9,4 @@ print("precio habitual:"+str(precio))
 print("precio con descuento:"+ str(precio_con_descuento) )
 print("coste final:" + str(numero_de_barras*precio_con_descuento))
 
+
