@@ -17,7 +17,8 @@ def repite(update, context):
 
 def suma(update, context):
     resultado = int(context.args[0]) + int (context.args[1])
-    update.message.reply_text ("El resultado es " + str (resultado))
+    resultado = str(resultado)
+    update.message.reply_text ("El resultado es " +resultado)
 
 main()
 
